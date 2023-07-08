@@ -18,6 +18,7 @@ namespace mcordovaS5a.Droid
     {
         public void longAlert(string mensaje)
         {
+            //metodo
            Toast.MakeText(Application.Context,mensaje, ToastLength.Long).Show();   
         }
 
